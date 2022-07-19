@@ -27,6 +27,8 @@ app.use('/api/users', usersRoutes)
 //* Public
 app.use(express.static(path.join(__dirname, 'public')))
 
-// * 404 Not foun handler
+// * 404 Not found handler
 app.use(notFoundHandler)
+
+
 export default app
