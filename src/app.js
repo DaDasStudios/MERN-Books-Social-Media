@@ -19,16 +19,17 @@ app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 app.use(morgan('dev'))
 
+
+
 // * Routes
 app.use('/api/books', booksRoutes)
 app.use('/api/auth', authRoutes)
 app.use('/api/users', usersRoutes)
 
 //* Public
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, '../app')))
 
 // * 404 Not found handler
 app.use(notFoundHandler)
-
 
 export default app
