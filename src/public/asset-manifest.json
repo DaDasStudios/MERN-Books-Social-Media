@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be00d659.css",
+    "main.js": "/static/js/main.d438898a.js",
+    "static/media/nerd-image.png": "/static/media/nerd-image.0e0b7c83f1291ba65a2f.png",
+    "static/media/asesino-en-serie.png": "/static/media/asesino-en-serie.538695a60a79c3a2217f.png",
+    "index.html": "/index.html",
+    "main.be00d659.css.map": "/static/css/main.be00d659.css.map",
+    "main.d438898a.js.map": "/static/js/main.d438898a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be00d659.css",
+    "static/js/main.d438898a.js"
+  ]
+}

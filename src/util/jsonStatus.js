@@ -1,0 +1,11 @@
+export const INVALID_DATA = { message: "Invalid Data" }
+export const USER_NOT_FOUND = { message: "User Not Found" }
+export const INVALID_PASSWORD = { message: "Invalid Password" }
+export const NO_TOKEN_PROVIDED = { message: "No Token Provided" }
+export const INVALID_TOKEN = { message: "Invalid Token" }
+export const NOT_AUTHENTICATED = { message: "Not Authenticated " }
+export const INVALID_EMAIL = { message: "Invalid Email" }
+export const INVALID_ROLE = { message: "Invalid Role" }
+export const INVALID_ROUTE = { message: "Invalid Route" }
+export const INVALID_ID = { message: "Invalid ID" }
+export const INTERNAL_ERROR = { message: "Interal Error"}
